@@ -1,0 +1,22 @@
+GET http://localhost:8000/
+
+###
+GET http://localhost:8000/api/data
+
+###发送数据
+POST http://localhost:8000/api/data
+Content-Type: application/json
+
+{
+    "name":"sam",
+    "age":18
+}
+
+###删除最后一个数据
+DELETE http://localhost:8000/api/data
+
+Content-Type: application/json
+
+{
+    "name":"sam"
+}
