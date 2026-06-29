@@ -1,0 +1,52 @@
+{
+  // 你的原有配置保留
+  "git.ignoreMissingGitWarning": true,
+  "chat.viewSessions.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "files.autoSave": "onFocusChange",
+  "editor.accessibilitySupport": "off",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "editor.inlineSuggest.showToolbar": "always",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+  "idf.hasWalkthroughBeenShown": true,
+
+  // 【关键】格式化配置
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 前端文件强制用 Prettier
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "claudeCode.preferredLocation": "panel",
+  "editor.renderWhitespace": "none",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.settings.applyToAllProfiles": [
+    
+
+  ],
+}
